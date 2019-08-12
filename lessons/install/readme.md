@@ -47,16 +47,14 @@ import sklearn
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+i have installed python 3 becasue i want my python version to be compatible with the course material and the HackeRank prework 
 ### Q2. Which Python Version Installed   
 
 In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+Python 3.7.3 
  
 
 
