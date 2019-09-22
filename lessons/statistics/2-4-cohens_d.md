@@ -7,14 +7,24 @@ others = live[live.birthord != 1]
 
 
 question here the first thing i did was to define a function to calculate cohen's d  
+
+
 def cohen_effect(group1,group2):
-    diff_mean = group1.mean() - group2.mean()
+   
+   diff_mean = group1.mean() - group2.mean()
+   
     var1 = group1.var()
+    
     var2 = group2.var()
+    
     len1 = len(group1)
+    
     len2 = len(group2)
+    
     grouped_var =(len1*var1 + len2*var2) / (len1 + len2)
+    
     d= diff_mean / np.sqrt(grouped_var)
+    
     return d 
 
 
